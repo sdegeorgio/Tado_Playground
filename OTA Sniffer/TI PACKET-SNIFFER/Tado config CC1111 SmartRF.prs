@@ -1,0 +1,24 @@
+# ---------------------------------------------------
+# Packet sniffer stttings for CC1111
+# ---------------------------------------------------
+PKTCTRL0  |0xDF04|0x05|Packet Automation Control 
+FSCTRL1   |0xDF07|0x06|Frequency Synthesizer Control 
+FREQ2     |0xDF09|0x24|Frequency Control Word, High Byte 
+FREQ1     |0xDF0A|0x2E|Frequency Control Word, Middle Byte 
+FREQ0     |0xDF0B|0x1F|Frequency Control Word, Low Byte 
+MDMCFG4   |0xDF0C|0x9B|Modem configuration 
+MDMCFG3   |0xDF0D|0x11|Modem Configuration 
+MDMCFG2   |0xDF0E|0x13|Modem Configuration 
+MDMCFG1   |0xDF0F|0x23|Modem Configuration 
+MDMCFG0   |0xDF10|0x11|Modem Configuration 
+DEVIATN   |0xDF11|0x41|Modem Deviation Setting 
+MCSM0     |0xDF14|0x18|Main Radio Control State Machine Configuration 
+FOCCFG    |0xDF15|0x17|Frequency Offset Compensation Configuration 
+FSCAL3    |0xDF1C|0xE9|Frequency Synthesizer Calibration 
+FSCAL2    |0xDF1D|0x2A|Frequency Synthesizer Calibration 
+FSCAL1    |0xDF1E|0x00|Frequency Synthesizer Calibration 
+FSCAL0    |0xDF1F|0x1F|Frequency Synthesizer Calibration 
+TEST1     |0xDF24|0x31|Various Test Settings 
+TEST0     |0xDF25|0x09|Various Test Settings 
+PA_TABLE0 |0xDF2E|0xC2|PA Power Setting 0 
+IOCFG0    |0xDF31|0x06|Radio Test Signal Configuration (P1_5) 
